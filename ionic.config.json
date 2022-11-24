@@ -1,5 +1,7 @@
 {
   "name": "webcrypto-livereload",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
