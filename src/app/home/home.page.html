@@ -1,20 +1,27 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Web Crypto demo </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Web Crypto demo</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong>NOTE: Web Crypto APIs available only in secure contexts.</strong>
+    <pre style="text-align: start">
+      <code>{{sampleCode}}</code>
+    </pre>
+    <p>
+      Execute
+      <a (click)="digestTimestamp()">
+        <pre style="display: inline;">digestTimestamp()</pre>
+      </a>
+    </p>
+
   </div>
 </ion-content>
